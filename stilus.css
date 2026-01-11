@@ -1,0 +1,324 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFF;
+    font-family: "Google Sans Code", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 h2 h3 {
+    color: #1E1B4B;
+}
+
+p {
+    color: #4C1D95;
+}
+
+header {
+    height: 200px;
+    background-color: #7C3AED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    float: none;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #6D28D9;
+    border-radius: 10px;
+}
+
+.actual {
+    background-color: #6D28D9;
+    border-radius: 10px;
+}
+
+main {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 15px;
+    padding: 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 10px gray;
+}
+
+main:hover {
+    box-shadow: 3px 3px 10px gray;
+    transform: translateY(-2px);
+}
+
+.gomb {
+    background-color: #956ddb;
+    color: #EDE9FE;
+    border: #EDE9FE solid;
+    padding: 12px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(203, 191, 122, 0.3);
+}
+
+.gomb:hover {
+    background-color: #6D28D9;
+    box-shadow: 0 4px 12px rgba(203, 191, 122, 0.45);
+    transform: translateY(-2px);
+}
+
+.egymasmellett {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: stretch;
+}
+
+.jellemzes {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 15px;
+    padding: 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.jellemzes:hover {
+    box-shadow: 3px 3px 10px gray;
+    transform: translateY(-2px);
+}
+
+article {
+    border: 1px solid #EDE9FE;
+    border-radius: 18px;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-2px);
+}
+
+.egymasalatt {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.lepesek {
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 150px;
+    margin: 15px;
+    padding: 16px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.lepesek:hover {
+    box-shadow: 3px 3px 10px gray;
+    transform: translateY(-2px);
+}
+
+ol {
+    color: #4C1D95;
+    line-height: 150%;
+    padding-left: 1rem;
+    list-style-position: inside;
+}
+
+.arazas {
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 150px;
+    margin: 15px;
+    padding: 16px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.arazas:hover {
+    box-shadow: 3px 3px 10px gray;
+    transform: translateY(-2px);
+}
+
+footer {
+    background-color: #7C3AED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer {
+    color: #EDE9FE;
+}
+
+.termek {
+    padding: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.termek:hover {
+    box-shadow: 3px 3px 10px gray;
+    transform: translateY(-2px);
+}
+
+.egymasmellett-termek {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.termeklista {
+    color: #4C1D95;
+}
+
+
+
+.egymasmellett-csapat {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    align-items: stretch;
+    padding: 15px;
+}
+
+.csapat {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 16px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.csapat img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 12px;
+}
+
+.csapat p {
+    margin-top: auto;
+}
+
+.csapat:hover {
+    box-shadow: 3px 3px 10px gray;
+    transform: translateY(-2px);
+}
+
+.ertekek {
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 15px;
+    padding: 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.ertekek:hover {
+    box-shadow: 3px 3px 10px gray;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+
+    header {
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .egymasmellett {
+        grid-template-columns: 1fr;
+    }
+
+    .lepesek,
+    .arazas {
+        height: auto;
+    }
+
+    main {
+        margin: 10px;
+    }
+
+    .egymasmellett-termek {
+        grid-template-columns: 1fr;
+    }
+
+    .egymasmellett-csapat {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .egymasmellett {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .lepesek,
+    .arazas {
+        height: auto;
+    }
+
+    .egymasmellett-csapat {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 15px;
+    }
+}
